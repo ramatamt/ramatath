@@ -1,0 +1,150 @@
+  img{
+    width:  40px;
+    height: 40px;
+    border-radius: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    flex-wrap: wrap;
+    background-color: rgb(195, 101, 151);
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+nav .profile H2{
+    margin-left:20px ;
+    font-size: 15px;
+    
+    
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+nav  ul li{
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.projet{
+    margin: 4%;
+    max-width: 80%;
+
+}
+.projet header{
+    margin-top: 5%;
+
+}
+.h5{
+   color: chartreuse;
+
+}
+.projet header p{
+    color: black;
+    align-items: center;
+    margin-left: 50%;
+    background-color: white;
+}
+ #m{
+   width: 50%;
+   height: 40%;
+   margin-top: 5%;
+   margin-left: 30%;
+
+}
+.projet realiser{
+    margin-top: 6%;
+
+}
+
+#RAM{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.mesprojet{
+    display: flex;
+    margin-left:9%;
+    border: 10%;
+    border-radius: 5%;
+    border-color: aqua;
+    justify-content: space-around;
+   
+}
+h4{
+    padding-right: 20%;
+}
+
+
+
+
+
+
+.FORMULAIRE {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(201, 90, 177);
+    width: 500px;
+}
+.contactform {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contactform h2 {
+    margin-bottom: 1rem;
+}
+.contactform label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.contact-form input, .contact-form textarea {
+    width: 500%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contactform input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contactform input[type="submit"]:hover {
+    background-color: #555;
+}
+footer{
+    display: flex;
+    padding: 20%;
+    justify-content: space-between;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
